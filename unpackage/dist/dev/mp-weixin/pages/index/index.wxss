@@ -1,0 +1,370 @@
+
+.imageList-2.data-v-57280228 {
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 200px;
+    /* width: 100%; */
+    padding: 20rpx;
+    white-space: nowrap;
+    margin-bottom: 15px;
+    background: #fff;
+    /* width: 95%; */
+    /* margin-left: 2.5%; */
+}
+.imageList-2 ._img.data-v-57280228 {
+    width: 250px;
+    height: 150px;
+    margin-right: 10px;
+}
+.card_yprice.data-v-57280228 {
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+}
+.card_zprice.data-v-57280228 {
+    font-size: 14px;
+    color: #ff1497;
+}
+.card_name.data-v-57280228 {
+    font-size: 13px;
+    color: #000;
+    /* width:160px; */
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.card_child.data-v-57280228 {
+    display: inline-block;
+    width: 49%;
+    /* margin: 0 2% 2% 0; */
+    background-color: #fff;
+}
+.card_child ._img.data-v-57280228 {
+    width: 300rpx;
+    height: 300rpx;
+}
+.card_img.data-v-57280228 {
+    padding: 20rpx;
+    /* background: #fff; */
+    text-align: center;
+}
+.title.data-v-57280228 {
+    color: #ff1497;
+    text-align: center;
+    font-size: 32rpx;
+    margin-bottom: 15px;
+}
+.van-coupon-item.data-v-57280228 {
+    margin-top: 30rpx;
+    overflow: hidden;
+    margin: 0 15px 15px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+.van-coupon-item.data-v-57280228:active {
+    background-color: #e8e8e8;
+}
+.van-coupon-item__content.data-v-57280228 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    height: 100px;
+    padding: 24px 0 0 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: -webkit-gradient(linear, left top, right top, from(#ff1493), to(#ffe3f2));
+    background: -webkit-linear-gradient(left, #ff1493, #ffe3f2);
+    background: linear-gradient(to right, #ff1493, #ffe3f2);
+}
+.receive.data-v-57280228 {
+    margin-top: 30rpx;
+    margin-left: 30rpx;
+    font-size: 32rpx;
+    color: #ff1497;
+}
+.van-coupon-item ._h2.data-v-57280228,
+.van-coupon-item ._p.data-v-57280228 {
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #fff;
+}
+.van-coupon-item ._h2.data-v-57280228 {
+    height: 34px;
+    font-weight: 500;
+    line-height: 34px;
+}
+.van-coupon-item ._p.data-v-57280228 {
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;
+}
+.imageList.data-v-57280228 {
+    padding: 10rpx;
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* height:300upx; */
+    /* width: 100%; */
+    white-space: nowrap;
+    margin-bottom: 40rpx;
+    background: #fff;
+    margin-top: 10rpx;
+}
+.txtname1.data-v-57280228 {
+    margin-top: 10px;
+    font-size: 12px;
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+._box.data-v-57280228 {
+    display: inline-block;
+    height: 150px;
+}
+.txtname.data-v-57280228 {
+    margin-top: 10px;
+    font-size: 12px;
+    overflow: hidden;
+}
+.txt.data-v-57280228 {
+    text-align: center;
+    margin-top: 1rem;
+}
+.txttitle.data-v-57280228 {
+    font-size: 12px;
+    color: #999;
+    margin-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 250px;
+}
+._box1.data-v-57280228 {
+    border-right: 1.5px solid #f2f2f2;
+    border-bottom: 1.5px solid #f2f2f2;
+    display: inline-block;
+    /* height: 150upx; */
+    text-align: center;
+    margin-left: 3px;
+}
+._box1 ._img.data-v-57280228 {
+    height: 200rpx;
+    width: 200rpx;
+}
+.cprice.data-v-57280228 {
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    text-decoration: line-through;
+}
+.hotgoodsimg.data-v-57280228 {
+    width: 90%;
+    max-height: 150rpx;
+}
+.dprice.data-v-57280228 {
+    color: #ff1497;
+    font-size: 32rpx;
+}
+.icon_p.data-v-57280228 {
+    width: 25%;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+            flex-grow: 1;
+    /* word-break: break-word; */
+    margin-top: 10px;
+}
+.icon_p view.data-v-57280228 {
+    font-size: 24rpx;
+}
+.icon_p ._img.data-v-57280228 {
+    width: 60rpx;
+    height: 60rpx;
+}
+.icon_img.data-v-57280228 {
+    padding: 20rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    background: #fff;
+    text-align: center;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+}
+.swiper_img ._img.data-v-57280228 {
+    width: 100%;
+    /* height: 100%; */
+}
+.swiper.data-v-57280228 {
+    height: 420rpx;
+}
+.search input.data-v-57280228 {
+    border: 3rpx solid #eee;
+    -webkit-border-radius: 10rpx;
+            border-radius: 10rpx;
+    background: #fff;
+    padding: 10rpx;
+}
+.container.data-v-57280228 {
+    background: #f2f2f2;
+}
+.search.data-v-57280228 {
+    padding: 20rpx;
+}
+.noR.data-v-57280228 {
+    margin: 0 0 2% 0;
+}
+.marR.data-v-57280228 {
+    margin: 0 2% 2% 0;
+}
+
+/* 团购 */
+.a-section.data-v-57280228 {
+    width: 750rpx;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    color: #333;
+    margin-top: 20rpx;
+}
+.a-section .h.data-v-57280228 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    height: 130rpx;
+}
+.a-section .h .txt.data-v-57280228 {
+    padding-right: 30rpx;
+    background-size: 16.656rpx 27rpx;
+    display: inline-block;
+    height: 36rpx;
+    font-size: 33rpx;
+    line-height: 36rpx;
+}
+.a-brand .b.data-v-57280228 {
+    width: 750rpx;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.a-groupon.data-v-57280228 {
+    width: 750rpx;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.a-groupon .b .item.data-v-57280228 {
+    border-top: 1px solid #d9d9d9;
+    margin: 0 20rpx;
+    height: 260rpx;
+    width: 710rpx;
+}
+.a-groupon .b .img.data-v-57280228 {
+    margin-top: 12rpx;
+    margin-right: 12rpx;
+    float: left;
+    width: 220rpx;
+    height: 220rpx;
+}
+.a-groupon .b .right.data-v-57280228 {
+    float: left;
+    height: 244rpx;
+    width: 476rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+}
+.a-groupon .b .text.data-v-57280228 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    overflow: hidden;
+    height: 244rpx;
+    width: 476rpx;
+}
+.a-groupon .b .name.data-v-57280228 {
+    /* float: left; */
+    display: block;
+    color: #333;
+    line-height: 50rpx;
+    font-size: 30rpx;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.a-groupon .b .desc.data-v-57280228 {
+    width: 476rpx;
+    display: block;
+    color: #999;
+    line-height: 50rpx;
+    font-size: 25rpx;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.a-groupon .b .price.data-v-57280228 {
+    width: 476rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    color: #ab956d;
+    line-height: 40rpx;
+    font-size: 33rpx;
+}
+.a-groupon .b .counterPrice.data-v-57280228 {
+    text-decoration: line-through;
+    font-size: 28rpx;
+    color: #999;
+}
+.a-groupon .b .retailPrice.data-v-57280228 {
+    margin-left: 30rpx;
+    font-size: 28rpx;
+    color: #a78845;
+}
+.peopleNum.data-v-57280228 {
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: middle;
+    background: rgb(25, 137, 250);
+    color: #fff;
+    padding: 2px 5px;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+}
+.lastTime.data-v-57280228 {
+    color: #fff;
+    padding: 2px 5px;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+    font-size: 12px;
+    background-color: rgb(255, 151, 106);
+}
+

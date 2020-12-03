@@ -1,0 +1,116 @@
+
+.container.data-v-127632e4 {
+    background-color: #f2f2f2;
+    min-height: calc(100vh - 40px);
+}
+.top_flex.data-v-127632e4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+.nav_span.data-v-127632e4 {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+            flex-grow: 1;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 10px;
+}
+.chooseTag.data-v-127632e4 {
+    color: rgb(255, 20, 151);
+    border-bottom: 2px solid rgb(255, 20, 151);
+}
+.bottom_content.data-v-127632e4 {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.content_top.data-v-127632e4 {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+.top_left.data-v-127632e4,
+.top_right.data-v-127632e4 {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+            flex-grow: 1;
+}
+.top_right.data-v-127632e4 {
+    text-align: right;
+    color: #ee0a24;
+}
+.order_num.data-v-127632e4 {
+    margin-left: 5px;
+}
+.content_middle.data-v-127632e4 {
+    padding: 0 10px;
+}
+.middle_left.data-v-127632e4,
+.middle_right.data-v-127632e4 {
+    display: inline-block;
+    height: 90px;
+    vertical-align: top;
+}
+.middle_left ._img.data-v-127632e4 {
+    width: 88px;
+    max-height: 88px;
+}
+.middle_right.data-v-127632e4 {
+    margin-left: 5px;
+    position: relative;
+    width: calc(100% - 100px);
+}
+.right_top.data-v-127632e4 {
+    font-size: 14px;
+}
+.right_middle ._span.data-v-127632e4 {
+    font-size: 13px;
+    border: 1px solid #e5e5e5;
+    color: #969799;
+    padding: 2px;
+    margin-right: 5px;
+}
+.right_bottom.data-v-127632e4 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    font-size: 13px;
+    color: #969799;
+}
+.content_bottom.data-v-127632e4 {
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    font-size: 14px;
+    padding: 0 10px;
+}
+.btn_list.data-v-127632e4 {
+    text-align: right;
+    padding: 0 10px;
+}
+.cancel_btn.data-v-127632e4,
+.evaluate_btn.data-v-127632e4 {
+    border-color: #e5e5e5 !important;
+}
+.btn_list uni-button.data-v-127632e4 {
+    margin-left: 10px;
+}
+.color_btn.data-v-127632e4 {
+    border-color: #ff1497 !important;
+    background-color: #ff1497 !important;
+    color: #fff !important;
+}
+.no_more.data-v-127632e4 {
+    text-align: center;
+    font-size: 14px;
+    padding: 15px 0 30px 0;
+}
+

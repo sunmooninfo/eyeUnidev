@@ -1,0 +1,27 @@
+
+.btn.data-v-0c364673 {
+    margin-top: 2rem;
+    background: #ff1497;
+    color: #fff;
+}
+.name.data-v-0c364673 {
+    -webkit-border-radius: 2px;
+            border-radius: 2px;
+    border: 1px solid #eee;
+}
+.item.data-v-0c364673 {
+    font-size: 16px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    padding: 0.5rem;
+    border-bottom: 0.5px solid #eee;
+}
+.container.data-v-0c364673 {
+    margin-top: 1.5rem;
+    padding: 1rem;
+}
+

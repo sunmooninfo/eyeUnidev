@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "填写订单",
+  "usingComponents": {
+    "evan-switch": "/components/evan-switch/evan-switch",
+    "popup-layer": "/components/popup-layer/popup-layer"
+  }
+}

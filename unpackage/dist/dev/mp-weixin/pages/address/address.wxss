@@ -1,0 +1,67 @@
+
+.container.data-v-db675620 {
+    background-color: #f2f2f2;
+    min-height: calc(100vh - 45px);
+}
+.addressList.data-v-db675620 {
+    padding: 15px;
+    margin-bottom: 40px;
+}
+.addressLabel.data-v-db675620 {
+    display: block;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+}
+.addRadio.data-v-db675620 {
+    display: inline-block;
+    width: 40px;
+    vertical-align: middle;
+}
+.addInfo.data-v-db675620 {
+    display: inline-block;
+    width: calc(100% - 40px);
+    vertical-align: middle;
+    color: #323233;
+}
+.right.data-v-db675620,
+.left.data-v-db675620 {
+    display: inline-block;
+    vertical-align: middle;
+}
+.left.data-v-db675620 {
+    width: calc(100% - 25px);
+    margin-right: 4px;
+}
+.content_top.data-v-db675620 {
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 16px;
+}
+.content_bottom.data-v-db675620 {
+    font-size: 14px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.content_bottom.data-v-db675620 {
+    margin-top: 5px;
+}
+.bottom_fixed.data-v-db675620 {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #fff;
+    padding: 5px 0;
+}
+.addNew.data-v-db675620 {
+    background-color: #ff1497;
+    width: 90%;
+    margin: 0 auto;
+    -webkit-border-radius: 24px;
+            border-radius: 24px;
+    height: 40px;
+    line-height: 40px;
+}
+

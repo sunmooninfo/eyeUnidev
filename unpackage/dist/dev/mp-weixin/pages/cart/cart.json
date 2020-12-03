@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "购物车",
+  "usingComponents": {
+    "top-thread": "/pages/cart/component/topThread"
+  }
+}

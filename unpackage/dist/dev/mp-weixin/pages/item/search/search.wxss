@@ -1,0 +1,64 @@
+
+.search_text.data-v-cf10a6a8 {
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+    color: #999;
+}
+.left_btn.data-v-cf10a6a8,
+.right_btn.data-v-cf10a6a8 {
+    display: inline-block;
+}
+.right_btn.data-v-cf10a6a8 {
+    float: right;
+    cursor: pointer;
+}
+.list_ul.data-v-cf10a6a8 {
+    padding: 10px;
+}
+.list_ul ._li.data-v-cf10a6a8 {
+    list-style: none;
+    margin-bottom: 5px;
+}
+.list_img.data-v-cf10a6a8 {
+    display: inline-block;
+    width: 88px;
+    -webkit-border-radius: 8px;
+            border-radius: 8px;
+    height: 88px;
+    margin-right: 10px;
+}
+.right_text.data-v-cf10a6a8 {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 100px);
+    height: 88px;
+    position: relative;
+}
+.top_title.data-v-cf10a6a8,
+.top_other.data-v-cf10a6a8,
+.bottom_text.data-v-cf10a6a8 {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.top_other.data-v-cf10a6a8 {
+    color: #646566;
+}
+.bottom_text.data-v-cf10a6a8 {
+    position: absolute;
+    bottom: 0;
+}
+.retailPrice.data-v-cf10a6a8,
+.counterPrice.data-v-cf10a6a8 {
+    display: inline-block;
+}
+.counterPrice.data-v-cf10a6a8 {
+    text-decoration: line-through;
+    font-size: 13px;
+    color: #969799;
+    margin-left: 3px;
+}
+

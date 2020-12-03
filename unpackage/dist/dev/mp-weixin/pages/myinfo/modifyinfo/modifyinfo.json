@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "修改我的信息",
+  "usingComponents": {
+    "evan-radio": "/components/evan-radio/evan-radio"
+  }
+}

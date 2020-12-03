@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "会员中心",
+  "usingComponents": {
+    "uni-collapse": "/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/components/uni-collapse-item/uni-collapse-item",
+    "zzx-tabs": "/components/zzx-tabs/zzx-tabs"
+  }
+}

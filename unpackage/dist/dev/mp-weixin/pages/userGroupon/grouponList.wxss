@@ -1,0 +1,132 @@
+
+.container.data-v-2ac22a37 {
+    background-color: #f2f2f2;
+    min-height: calc(100vh - 45px);
+}
+.groupon-list.data-v-2ac22a37 {
+    width: 750rpx;
+    height: 100%;
+    overflow: hidden;
+    background: #f4f4f4;
+}
+.groupon-list .item.data-v-2ac22a37 {
+    height: 244rpx;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 20rpx;
+}
+.groupon-list .img.data-v-2ac22a37 {
+    margin-top: 12rpx;
+    margin-right: 12rpx;
+    float: left;
+    width: 220rpx;
+    height: 220rpx;
+}
+.groupon-list .right.data-v-2ac22a37 {
+    float: left;
+    height: 244rpx;
+    width: 476rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+}
+.groupon-list .text.data-v-2ac22a37 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    overflow: hidden;
+    height: 244rpx;
+    width: 476rpx;
+}
+.groupon-list .name.data-v-2ac22a37 {
+    /* float: left; */
+    display: block;
+    color: #333;
+    line-height: 50rpx;
+    font-size: 30rpx;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.groupon-list .desc.data-v-2ac22a37 {
+    width: 476rpx;
+    display: block;
+    color: #999;
+    line-height: 50rpx;
+    font-size: 25rpx;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.groupon-list .price.data-v-2ac22a37 {
+    width: 476rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    color: #ab956d;
+    line-height: 50rpx;
+    font-size: 33rpx;
+}
+.groupon-list .counterPrice.data-v-2ac22a37 {
+    text-decoration: line-through;
+    font-size: 28rpx;
+    color: #999;
+}
+.groupon-list .retailPrice.data-v-2ac22a37 {
+    margin-left: 30rpx;
+    font-size: 28rpx;
+    color: #a78845;
+}
+.page.data-v-2ac22a37 {
+    width: 750rpx;
+    height: 108rpx;
+    background: #fff;
+    margin-bottom: 20rpx;
+}
+.page view.data-v-2ac22a37 {
+    height: 108rpx;
+    width: 50%;
+    float: left;
+    font-size: 29rpx;
+    color: #333;
+    text-align: center;
+    line-height: 108rpx;
+}
+.page .prev.data-v-2ac22a37 {
+    border-right: 1px solid #d9d9d9;
+}
+.page .disabled.data-v-2ac22a37 {
+    color: #ccc;
+}
+.peopleNum.data-v-2ac22a37 {
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: middle;
+    background: rgb(25, 137, 250);
+    color: #fff;
+    padding: 2px 5px;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+}
+.lastTime.data-v-2ac22a37 {
+    color: #fff;
+    padding: 2px 5px;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+    font-size: 12px;
+    background-color: rgb(255, 151, 106);
+}
+

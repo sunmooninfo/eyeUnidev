@@ -1,0 +1,41 @@
+
+.RecordBox {
+    width: 95%;
+    height: 180rpx;
+    margin: 20rpx auto;
+    background-color: #ffffff;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+}
+.vip-box {
+    height: 180rpx;
+    -webkit-border-radius: 10rpx;
+            border-radius: 10rpx;
+    margin: 20rpx 0;
+    background: -webkit-linear-gradient(45deg, #ffffff, #d3d3d3, #808080);
+    background: linear-gradient(45deg, #ffffff, #d3d3d3, #808080);
+    background-size: 100% 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+.vip-box>view {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+            justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-flex-basis: 100%;
+            flex-basis: 100%;
+    font-size: 30rpx;
+}
+

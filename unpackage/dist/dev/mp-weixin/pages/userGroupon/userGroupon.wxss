@@ -1,0 +1,195 @@
+
+.container.data-v-352092ae {
+    background-color: #f2f2f2;
+    min-height: calc(100vh - 45px);
+}
+.top_flex.data-v-352092ae {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+.nav_span.data-v-352092ae {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+            flex-grow: 1;
+    text-align: center;
+    font-size: 14px;
+}
+.nav_span.data-v-352092ae:nth-child(1) {
+    border: none;
+}
+.inner_span.data-v-352092ae {
+    height: calc(100% - 3px);
+    display: inline-block;
+}
+.chooseTag.data-v-352092ae {
+    color: rgb(255, 20, 151);
+    border-bottom: 3px solid rgb(255, 20, 151);
+}
+.bottom_content.data-v-352092ae {
+    text-align: center;
+    margin-top: 5rem;
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+}
+.bottom_content ._img.data-v-352092ae {
+    width: 160px;
+}
+.orders.data-v-352092ae {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.order.data-v-352092ae {
+    margin-top: 20rpx;
+    background: #fff;
+}
+.pri.data-v-352092ae,
+.suc.data-v-352092ae,
+.dan.data-v-352092ae,
+.war.data-v-352092ae {
+    font-size: 12px;
+    color: #fff;
+    padding: 3px 5px;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+}
+.pri.data-v-352092ae {
+    background-color: rgb(0, 122, 255);
+}
+.suc.data-v-352092ae {
+    background-color: rgb(103, 194, 58);
+}
+.dan.data-v-352092ae {
+    background-color: rgb(230, 67, 64);
+}
+.war.data-v-352092ae {
+    background-color: rgb(230, 162, 60);
+}
+.order .h.data-v-352092ae {
+    height: 83.3rpx;
+    line-height: 83.3rpx;
+    margin-left: 31.25rpx;
+    padding-right: 31.25rpx;
+    border-bottom: 1px solid #f4f4f4;
+}
+.order .h .l.data-v-352092ae {
+    float: left;
+    color: rgb(255, 20, 151);
+    font-size: 26rpx;
+}
+.order .h .r.data-v-352092ae {
+    float: right;
+    color: rgb(255, 20, 151);
+    font-size: 26rpx;
+}
+.order .i.data-v-352092ae {
+    height: 56rpx;
+    line-height: 56rpx;
+    margin-left: 31.25rpx;
+    padding-right: 31.25rpx;
+    border-bottom: 1px solid #f4f4f4;
+}
+.order .i .l.data-v-352092ae {
+    float: left;
+    color: rgb(255, 20, 151);
+    font-size: 26rpx;
+}
+.order .i .r.data-v-352092ae {
+    float: right;
+    color: rgb(255, 20, 151);
+    font-size: 26rpx;
+}
+.order .j.data-v-352092ae {
+    height: 56rpx;
+    line-height: 56rpx;
+    margin-left: 31.25rpx;
+    padding-right: 31.25rpx;
+}
+.order .j .l.data-v-352092ae {
+    float: left;
+    font-size: 26rpx;
+    color: rgb(255, 20, 151);
+}
+.order .j .r.data-v-352092ae {
+    float: right;
+    color: rgb(255, 20, 151);
+    font-size: 26rpx;
+}
+.order .goods.data-v-352092ae {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    height: 199rpx;
+    margin-left: 31.25rpx;
+}
+.order .goods .img.data-v-352092ae {
+    height: 145.83rpx;
+    width: 145.83rpx;
+    background: #f4f4f4;
+}
+.order .goods .img image.data-v-352092ae {
+    height: 145.83rpx;
+    width: 145.83rpx;
+}
+.order .goods .info.data-v-352092ae {
+    height: 145.83rpx;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+            flex: 1;
+    padding-left: 20rpx;
+}
+.order .goods .name.data-v-352092ae {
+    margin-top: 30rpx;
+    display: block;
+    height: 44rpx;
+    line-height: 44rpx;
+    color: #333;
+    font-size: 30rpx;
+}
+.order .goods .number.data-v-352092ae {
+    display: block;
+    height: 37rpx;
+    line-height: 37rpx;
+    color: #666;
+    font-size: 25rpx;
+}
+.order .goods .status.data-v-352092ae {
+    width: 105rpx;
+    color: rgb(255, 20, 151);
+    font-size: 25rpx;
+}
+.order .b.data-v-352092ae {
+    height: 103rpx;
+    line-height: 103rpx;
+    margin-left: 31.25rpx;
+    padding-right: 31.25rpx;
+    border-top: 1px solid #f4f4f4;
+    font-size: 30rpx;
+    color: #333;
+}
+.order .b .l.data-v-352092ae {
+    float: left;
+}
+.order .b .r.data-v-352092ae {
+    float: right;
+}
+.order .b .btn.data-v-352092ae {
+    margin-top: 19rpx;
+    height: 64.5rpx;
+    line-height: 64.5rpx;
+    text-align: center;
+    padding: 0 20rpx;
+    -webkit-border-radius: 5rpx;
+            border-radius: 5rpx;
+    font-size: 28rpx;
+    color: #fff;
+    background: rgb(255, 20, 151);
+}
+

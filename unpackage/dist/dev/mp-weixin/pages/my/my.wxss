@@ -1,0 +1,61 @@
+
+.name {
+    text-align: center;
+    font-size: 0.65rem;
+}
+.picon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    /* padding: .8rem; */
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    text-align: center;
+}
+.picon image {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+.order {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    background: #fff;
+    padding: 0.7rem;
+}
+.var_img image {
+    margin-top: 0.5rem;
+}
+.header_img {
+    text-align: center;
+    padding-top: 20px;
+}
+.header_img image {
+    width: 3.8rem;
+    height: 3.8rem;
+}
+.shezhi {
+    padding-top: 1rem;
+    margin-left: 17rem;
+}
+.shezhi image {
+    width: 1rem;
+    height: 1rem;
+}
+.container {
+    /* padding: .7rem; */
+    font-size: 14px;
+    line-height: 24px;
+    background: #f2f2f2;
+}
+ .binWX {
+    font-size: 1.6rem !important;
+    color: rgb(255, 55, 156) !important;
+}
+

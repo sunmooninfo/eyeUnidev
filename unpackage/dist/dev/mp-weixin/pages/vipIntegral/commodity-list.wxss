@@ -1,0 +1,220 @@
+
+.data-v-6b00325d .num_box .uni-numbox__minus,.data-v-6b00325d .num_box .uni-numbox__plus {
+    width: 30px;
+    height: 30px;
+}
+.data-v-6b00325d .num_box .uni-numbox__value {
+    width: 35px;
+    height: 30px;
+}
+.data-v-6b00325d .swiper {
+    height: 375px !important;
+}
+.container.data-v-6b00325d {
+    background-color: #f2f2f2;
+}
+.content.data-v-6b00325d {
+    margin-bottom: 50px;
+}
+
+/* 轮播图 */
+.swiper.data-v-6b00325d {
+    height: 700rpx;
+}
+.swiper-item image.data-v-6b00325d {
+    height: 375px;
+    width: 100%;
+}
+
+/* 商品介绍 */
+.con_goods_name.data-v-6b00325d {
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+.con_goods_price.data-v-6b00325d {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+    background-color: #fff;
+}
+.new_price.data-v-6b00325d {
+    font-size: 20px;
+    color: #ff1497;
+    margin-right: 10px;
+}
+.old_price.data-v-6b00325d {
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+/* 商品规格 */
+.middle_size.data-v-6b00325d {
+    margin-top: 20px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    font-size: 14px;
+    padding: 0 20px;
+    text-align: right;
+}
+.middle_size>._span.data-v-6b00325d {
+    float: left;
+}
+
+/* 商品详情 */
+.details.data-v-6b00325d {
+    background-color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* 商品常见问题 */
+.normal_prob.data-v-6b00325d {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    position: relative;
+}
+.normal_prob_span.data-v-6b00325d {
+    z-index: 10;
+    position: relative;
+    width: 80px;
+    display: inline-block;
+    background: #f2f2f2;
+}
+.line.data-v-6b00325d {
+    width: calc(100% - 20px);
+    border: 1px solid #e5e5e5;
+    position: absolute;
+    top: 19px;
+    z-index: 0;
+}
+.problem_content.data-v-6b00325d {
+    background-color: #fff;
+    padding: 10px 0;
+}
+.pro_li.data-v-6b00325d {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.problem_text.data-v-6b00325d {
+    margin-top: 5px;
+    color: rgb(120, 120, 120);
+    padding: 0 10px;
+}
+
+/* 购物车组件 */
+.bottom_nav.data-v-6b00325d {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 500;
+}
+
+/* 弹窗 */
+.b_dialog .uni-popup.data-v-6b00325d {
+    z-index: 500;
+}
+.info.data-v-6b00325d {
+    background: #fff;
+    padding-bottom: 10px;
+    -webkit-border-top-left-radius: 15px;
+            border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+            border-top-right-radius: 15px;
+    padding: 10px;
+}
+.info_top.data-v-6b00325d,
+.info_middle.data-v-6b00325d {
+    border-bottom: 1px solid #e5e5e5;
+}
+.dialog_img.data-v-6b00325d {
+    width: 96px;
+    height: 96px;
+}
+.right_message.data-v-6b00325d {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    position: relative;
+    width: calc(100% - 140px);
+}
+.close_dialog.data-v-6b00325d {
+    position: absolute;
+    right: 0;
+    top: -4px;
+    font-size: 28px;
+    color: #c8c9cc;
+}
+.price.data-v-6b00325d {
+    color: #ee0a24;
+    font-size: 18px;
+}
+.price .price_num.data-v-6b00325d {
+    font-size: 22px;
+    margin-left: 10px;
+}
+.choose_goods.data-v-6b00325d {
+    color: #969799;
+    font-size: 12px;
+}
+.choose_name.data-v-6b00325d {
+    margin-left: 5px;
+}
+.goods_tagName.data-v-6b00325d {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.goods_list.data-v-6b00325d {
+    margin-bottom: 15px;
+}
+.goods_list .detail_tag.data-v-6b00325d {
+    display: inline-block;
+    font-size: 13px;
+    padding: 7px;
+    background-color: #f7f8fa;
+    color: #323233;
+    margin-left: 14px;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+    margin-bottom: 10px;
+}
+.goods_list .tagColor.data-v-6b00325d {
+    color: #ee0a24;
+    background-color: rgb(253, 231, 234);
+}
+.info_bottom.data-v-6b00325d {
+    padding: 10px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.num_box.data-v-6b00325d {
+    display: inline-block;
+    float: right;
+}
+.data-v-6b00325d #editor.ql-container,.data-v-6b00325d #editor.ql-container ._img {
+    height: auto;
+}
+.data-v-6b00325d .num_box .uni-numbox__value {
+    width: 35px;
+    height: 30px;
+}
+.data-v-6b00325d .swiper {
+    height: 375px !important;
+}
+.data-v-6b00325d #editor.ql-container,.data-v-6b00325d #editor.ql-container ._img {
+    height: auto;
+    display: block;
+}
+.data-v-6b00325d .b_dialog .uni-popup {
+    z-index: 600;
+}
+

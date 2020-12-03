@@ -1,0 +1,95 @@
+
+.container.data-v-032f11f4 {
+    background-color: #f2f2f2;
+    min-height: calc(100vh - 40px);
+}
+.top_flex.data-v-032f11f4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    background-color: #fff;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid rgb(255, 20, 151);
+    width: calc(100% - 30px);
+    margin: 0 auto;
+}
+.nav_span.data-v-032f11f4 {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+            flex-grow: 1;
+    text-align: center;
+    font-size: 14px;
+    border-left: 1px solid rgb(255, 20, 151);
+    color: rgb(255, 20, 151);
+}
+.nav_span.data-v-032f11f4:nth-child(1) {
+    border: none;
+}
+.chooseTag.data-v-032f11f4 {
+    color: #fff;
+    background-color: rgb(255, 20, 151);
+}
+.content_list.data-v-032f11f4 {
+    background-color: #fff;
+    padding: 15px;
+}
+.bottom_content.data-v-032f11f4 {
+    border: 1px solid rgb(255, 20, 151);
+    padding: 20px 0 20px 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* .bottom_content {
+    width: 160px;
+    height: 160px;
+} */
+.left.data-v-032f11f4,
+.right.data-v-032f11f4 {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+            flex-grow: 1;
+}
+.left.data-v-032f11f4 {
+    min-width: 90px;
+}
+.left .price.data-v-032f11f4 {
+    font-size: 14px;
+    color: rgb(255, 20, 151);
+    height: 30px;
+    line-height: 30px;
+}
+.price ._span.data-v-032f11f4 {
+    font-size: 22px;
+    margin-left: 5px;
+}
+.left .info.data-v-032f11f4 {
+    font-size: 12px;
+    color: #969799;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.right .text.data-v-032f11f4 {
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+}
+.right .info.data-v-032f11f4 {
+    font-size: 12px;
+    color: #969799;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.no_more.data-v-032f11f4 {
+    text-align: center;
+    font-size: 14px;
+    padding: 15px 0 30px 0;
+}
+

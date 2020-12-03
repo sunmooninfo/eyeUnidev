@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  --style: #e31d1a;
+  --gray: #f1f1f1;
+  --white: #ffffff;
+}
+.wm-numbox {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  position: relative;
+}
+.wm-numbox .wm-numbox_btn {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f8f8f8;
+  color: #202020;
+  position: relative;
+  border: 2rpx solid var(--gray);
+  font-size: 38rpx;
+  font-weight: bold;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.wm-numbox .wm-numbox_btn:active {
+  background-color: var(--gray);
+}
+.wm-numbox .wm-numbox_minus {
+  -webkit-border-top-left-radius: 6rpx;
+          border-top-left-radius: 6rpx;
+  -webkit-border-bottom-left-radius: 6rpx;
+          border-bottom-left-radius: 6rpx;
+}
+.wm-numbox .wm-numbox_plus {
+  -webkit-border-top-right-radius: 6rpx;
+          border-top-right-radius: 6rpx;
+  -webkit-border-bottom-right-radius: 6rpx;
+          border-bottom-right-radius: 6rpx;
+}
+.wm-numbox .wm-numbox_radio_m {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  background-color: var(--gray);
+  border-color: var(--style);
+  color: var(--style);
+}
+.wm-numbox .wm-numbox_radio_p {
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  background-color: var(--style);
+  color: var(--white);
+}
+.wm-numbox .wm-numbox_value {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 22rpx;
+  line-height: inherit;
+  height: inherit;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.wm-numbox .wm-numbox_bg {
+  background-color: var(--white);
+  border-top: 2rpx solid var(--gray);
+  border-bottom: 2rpx solid var(--gray);
+}
+.wm-numbox .numbox_disabled {
+  color: silver;
+}
+.wm-numbox .wm-numbox_radio_m.numbox_disabled, .wm-numbox .wm-numbox_radio_p.numbox_disabled {
+  background-color: var(--gray);
+  border-color: silver;
+}
+uni-input, uni-input input, input {
+  min-height: inherit;
+}
+.wn-good-box {
+  top: 50%;
+  left: 50%;
+  z-index: +99;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  color: var(--style);
+  position: fixed;
+  font-size: 26rpx;
+  overflow: hidden;
+  font-weight: bold;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.wn-good-box-img {
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+}
+.Number_hover {
+  opacity: 0.6;
+}
+

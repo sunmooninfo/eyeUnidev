@@ -1,0 +1,91 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/item/item",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/details/details",
+    "pages/order/order",
+    "pages/order/orderDetail",
+    "pages/item/search/search",
+    "pages/item/category/category",
+    "pages/user/help",
+    "pages/user/about",
+    "pages/coupon/coupon",
+    "pages/myinfo/myinfo",
+    "pages/myinfo/modifyinfo/modifyinfo",
+    "pages/topic/topic",
+    "pages/topic/score/score",
+    "pages/footprint/footprint",
+    "pages/favorite/favorite",
+    "pages/reg/reg",
+    "pages/vipIntegral/vipIntegral",
+    "pages/vipIntegral/commodity-list",
+    "pages/vipIntegral/Record",
+    "pages/vipIntegral/integral-list",
+    "pages/reset/reset",
+    "pages/cart/Orders/Orders",
+    "pages/cart/Orders/Orders-integral",
+    "pages/userGroupon/userGroupon",
+    "pages/address/address",
+    "pages/address/addressDetail",
+    "pages/feedback/feedback",
+    "pages/user/phone",
+    "pages/user/unbind",
+    "pages/userGroupon/grouponDetail",
+    "pages/userGroupon/grouponList",
+    "pages/topic/more/more",
+    "pages/artical/artical",
+    "pages/artical/artClassify",
+    "pages/artical/artDetail",
+    "pages/webview/webview"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#d4237a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home@selected.png"
+      },
+      {
+        "pagePath": "pages/artical/artical",
+        "text": "文章",
+        "iconPath": "static/images/article.png",
+        "selectedIconPath": "static/images/article@selected.png"
+      },
+      {
+        "pagePath": "pages/item/item",
+        "text": "分类",
+        "iconPath": "static/images/category.png",
+        "selectedIconPath": "static/images/category@selected.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/images/cart_1.png",
+        "selectedIconPath": "static/images/cart@selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/images/my.png",
+        "selectedIconPath": "static/images/my@selected.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap98.json"
+}

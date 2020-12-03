@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "积分订单详情",
+  "usingComponents": {
+    "popup-layer": "/components/popup-layer/popup-layer"
+  }
+}
