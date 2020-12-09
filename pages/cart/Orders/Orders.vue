@@ -8,7 +8,7 @@
             <view class="site-top">
                 <text class="site-name">{{ checkedAddress.name }}</text>
                 <text class="site-tel">{{ checkedAddress.tel }}</text>
-                <text class="iconfont">&#xe658;</text>
+				<uni-icons type="forward" size="20" class="rightIcon"></uni-icons>
             </view>
             <view class="site-bottom">
                 {{ checkedAddress.addressDetail }}
@@ -28,7 +28,7 @@
             <text>
                 <text class="scroll" v-if="couponList.length == 0">没有可用优惠券</text>
                 <text class="scroll" v-else>有{{ couponList.length }}张优惠券</text>
-                <text class="iconfont">&#xe658;</text>
+				<uni-icons type="forward" size="20" class="rightIcon"></uni-icons>
             </text>
         </view>
         <!-- 会员积分 -->
@@ -124,6 +124,7 @@
 <script>
 import api from '@/pages/api/api.js'
 import EvanSwitch from "@/components/evan-switch/evan-switch.vue";
+import uniIcons from "@/components/uni-icons/uni-icons.vue"
 export default {
     data() {
         return {
@@ -584,6 +585,7 @@ export default {
     },
     components: {
         EvanSwitch,
+		uniIcons
     },
     watch: {
         checked: function (newQuestion, oldQuestion) {
@@ -606,17 +608,9 @@ export default {
 </script>
 
 <style scoped>
-/*导入阿里巴巴字体图标*/
-@font-face {
-    font-family: "iconfont";
-    src: url("~@/static/img/font_icon/iconfont.ttf") format("truetype");
-}
 
-/*设置字体图标*/
-.iconfont {
-    font-family: "iconfont" !important;
-    font-size: 1em;
-    font-style: normal;
+.rightIcon {
+	float: right;
 }
 
 .Orders-room {

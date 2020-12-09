@@ -15,10 +15,7 @@ export default {
 <style>
 /* 解决头条小程序组件内引入字体不生效的问题 */
 /* #ifdef MP-TOUTIAO */
-@font-face {
-	font-family: uniicons;
-	src: url('/static/uni.ttf');
-}
+
 html,body{overflow-x:hidden;overflow-y:auto;}
 /* #endif */
 

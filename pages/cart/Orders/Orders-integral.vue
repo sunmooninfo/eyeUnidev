@@ -8,7 +8,7 @@
             <view class="site-top">
                 <text class="site-name">{{ checkedAddress.name }}</text>
                 <text class="site-tel">{{ checkedAddress.tel }}</text>
-                <text class="iconfont">&#xe658;</text>
+				<uni-icons type="forward" size="20" class="rightIcon"></uni-icons>
             </view>
             <view class="site-bottom">
                 {{ checkedAddress.addressDetail }}
@@ -21,22 +21,7 @@
     </view>
 
     <view class="content">
-        <!-- 优惠券弹出层 -->
-        <!-- 	<view class="discounts" @tap="show">
-
-<text>优惠券</text>
-
-<text>
-
-<text class="scroll" v-if="couponList.length == 0">没有可用优惠券</text>
-
-<text class="scroll" v-else>有{{couponList.length}}张优惠券</text> 
-
-<text class="iconfont">&#xe658;</text>
-
-</text>
-
-</view> -->
+ 
         <!-- 备注 -->
         <view class="remark">
             <text>订单备注 </text>
@@ -114,6 +99,7 @@
 
 <script>
 import api from '@/pages/api/api.js'
+import uniIcons from "@/components/uni-icons/uni-icons.vue"
 export default {
     data() {
         return {
@@ -144,6 +130,9 @@ export default {
     onLoad(option) {
         this.buy = JSON.parse(decodeURIComponent(option.buy));
     },
+	components: {
+		uniIcons
+	},
     onReady() {
         uni.showLoading({
             title: "加载中",
@@ -289,7 +278,6 @@ export default {
                                                         url: "/pages/cart/cart",
                                                     });
                                                 }, 2000);
-                                                // console.log('fail:' + JSON.stringify(err));
                                             },
                                         });
                                     }
@@ -305,19 +293,9 @@ export default {
 </script>
 
 <style scoped>
-/*导入阿里巴巴字体图标*/
-@font-face {
-    font-family: "iconfont";
-    src: url("~@/static/img/font_icon/iconfont.ttf") format("truetype");
+.rightIcon {
+	float: right;
 }
-
-/*设置字体图标*/
-.iconfont {
-    font-family: "iconfont" !important;
-    font-size: 1em;
-    font-style: normal;
-}
-
 .Orders-room {
     background-color: #f2f2f2;
     /* height: 100vh; */

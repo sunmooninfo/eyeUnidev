@@ -1,6 +1,7 @@
 {
   "navigationBarTitleText": "填写订单",
   "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
     "evan-switch": "/components/evan-switch/evan-switch",
     "popup-layer": "/components/popup-layer/popup-layer"
   }

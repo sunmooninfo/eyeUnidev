@@ -93,6 +93,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return recyclableRender; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
 var components = {
+  uniIcons: function() {
+    return Promise.all(/*! import() | components/uni-icons/uni-icons */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uni-icons/uni-icons")]).then(__webpack_require__.bind(null, /*! @/components/uni-icons/uni-icons.vue */ 356))
+  },
   popupLayer: function() {
     return __webpack_require__.e(/*! import() | components/popup-layer/popup-layer */ "components/popup-layer/popup-layer").then(__webpack_require__.bind(null, /*! @/components/popup-layer/popup-layer.vue */ 441))
   }
@@ -234,22 +237,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+var _api = _interopRequireDefault(__webpack_require__(/*! @/pages/api/api.js */ 18));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var uniIcons = function uniIcons() {Promise.all(/*! require.ensure | components/uni-icons/uni-icons */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uni-icons/uni-icons")]).then((function () {return resolve(__webpack_require__(/*! @/components/uni-icons/uni-icons.vue */ 356));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var _api = _interopRequireDefault(__webpack_require__(/*! @/pages/api/api.js */ 18));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =
 {
   data: function data() {var _Pay;
     return {
@@ -280,6 +269,9 @@ var _api = _interopRequireDefault(__webpack_require__(/*! @/pages/api/api.js */ 
   onLoad: function onLoad(option) {
     this.buy = JSON.parse(decodeURIComponent(option.buy));
   },
+  components: {
+    uniIcons: uniIcons },
+
   onReady: function onReady() {
     uni.showLoading({
       title: "加载中" });
@@ -425,7 +417,6 @@ var _api = _interopRequireDefault(__webpack_require__(/*! @/pages/api/api.js */ 
                         url: "/pages/cart/cart" });
 
                     }, 2000);
-                    // console.log('fail:' + JSON.stringify(err));
                   } });
 
               }

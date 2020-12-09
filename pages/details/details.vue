@@ -445,7 +445,7 @@ export default {
                 type: 0,
                 href: "https://www.baidu.com",
                 title: that.goods.info.name,
-                summary: "浪博科技",
+                summary: "付费知识平台",
                 imageUrl: that.shareImage,
                 success: function (res) {
                     console.log(JSON.stringify(res));
