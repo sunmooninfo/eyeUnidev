@@ -25,7 +25,7 @@ export default {
 	buy:'common/order/submit' ,//用户购买订单
 	IntegralBuy:'common/order/submitIntegral',//用户积分购买订单
 	prepaymentApp:'common/order/apppay',//app付款订单的预支付会话标识
-	prepaymentcommon:'common/order/prepay',//common付款订单的预支付会话标识
+	prepaymentWx:'common/order/prepay',//wx付款订单的预支付会话标识
 	prepaymentH5:'common/order/h5pay',//h5付款订单的预支付会话标识
 	
 	homeIndex: 'common/home/index', // 获取首页信息
