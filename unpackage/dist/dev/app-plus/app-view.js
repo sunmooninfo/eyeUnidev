@@ -13937,7 +13937,7 @@ if(false) {}
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/api.js */ 10);
 var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/lib/app-plus/getUrl.js */ 310);
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../static/img/vip-back.jpg */ 311);
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../static/images/vip-back.jpg */ 311);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
@@ -13993,12 +13993,12 @@ module.exports = function (url, options) {
 /***/ }),
 /* 311 */
 /*!*******************************************************************!*\
-  !*** C:/Users/Magic/Desktop/litemall-uni/static/img/vip-back.jpg ***!
+  !*** C:/Users/Magic/Desktop/litemall-uni/static/images/vip-back.jpg ***!
   \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/static/img/vip-back.jpg";
+module.exports = "/static/images/vip-back.jpg";
 
 /***/ }),
 /* 312 */
@@ -16714,7 +16714,7 @@ if(false) {}
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/api.js */ 10);
 var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/lib/app-plus/getUrl.js */ 310);
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! @/static/img/font_icon/iconfont.ttf */ 368);
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! @/static/images/font_icon/iconfont.ttf */ 368);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
@@ -16726,12 +16726,12 @@ module.exports = exports;
 /***/ }),
 /* 368 */
 /*!*****************************************************************************!*\
-  !*** C:/Users/Magic/Desktop/litemall-uni/static/img/font_icon/iconfont.ttf ***!
+  !*** C:/Users/Magic/Desktop/litemall-uni/static/images/font_icon/iconfont.ttf ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/static/img/font_icon/iconfont.ttf";
+module.exports = "/static/images/font_icon/iconfont.ttf";
 
 /***/ }),
 /* 369 */
@@ -17270,7 +17270,7 @@ if(false) {}
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/api.js */ 10);
 var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/lib/app-plus/getUrl.js */ 310);
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! @/static/img/font_icon/iconfont.ttf */ 368);
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! @/static/images/font_icon/iconfont.ttf */ 368);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module

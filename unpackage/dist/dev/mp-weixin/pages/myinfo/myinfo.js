@@ -155,25 +155,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
-
-
-
-
-
-
-
 var _api = _interopRequireDefault(__webpack_require__(/*! @/pages/api/api.js */ 18));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -201,8 +183,17 @@ var _default = { data: function data() {return { username: "", avatarUrl: "" };}
     //    this.avatarUrl = uni.getStorageSync('avatarUrl')
     // console.log(this.username)
     // console.log(this.avatarUrl)
-  }, onShow: function onShow() {this.username = uni.getStorageSync("nickName");this.avatarUrl = uni.getStorageSync("avatarUrl");}, methods: { Jump: function Jump() {uni.navigateTo({ url: "./modifyinfo/modifyinfo" });}, LoginOut: function LoginOut() {this.$request.post(_api.default.logout, {}).then(function (res) {try {uni.removeStorageSync("token");uni.removeStorageSync("refresh_token");uni.removeStorageSync("nickName");uni.removeStorageSync("avatarUrl");} catch (e) {// error
-        }if (res.errno == 0) {uni.showToast({ title: "退出成功", duration: 1500 });
+  }, onShow: function onShow() {this.username = uni.getStorageSync("nickName");this.avatarUrl = uni.getStorageSync("avatarUrl");}, methods: { Jump: function Jump() {uni.navigateTo({ url: "./modifyinfo/modifyinfo" });}, LoginOut: function LoginOut() {this.$request.post(_api.default.logout, {}).then(function (res) {try {uni.removeStorageSync("token");uni.removeStorageSync("refresh_token");
+          uni.removeStorageSync("nickName");
+          uni.removeStorageSync("avatarUrl");
+        } catch (e) {
+          // error
+        }
+        if (res.errno == 0) {
+          uni.showToast({
+            title: "退出成功",
+            duration: 1500 });
+
           setTimeout(function () {
             uni.switchTab({
               url: "../index/index" });

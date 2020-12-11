@@ -1,7 +1,7 @@
 <template>
 <view class="container">
     <view class="avatar">
-        <image src="../../static/img/avatar_default.png" mode=""></image>
+        <image src="../../static/images/avatar_default.png" mode=""></image>
         <view style="font-size: 16px"> 解绑手机 </view>
     </view>
     <view class="pinput">

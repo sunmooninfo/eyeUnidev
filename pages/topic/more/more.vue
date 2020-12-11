@@ -4,7 +4,6 @@
     <view v-for="(item, i) in commentList" :key="i">
         <view class="contain_3">
             <view class="head">
-                <!-- <img src="https://img.yzcdn.cn/vant/cat.jpeg" alt=""> -->
                 <view>{{ item.userInfo.nickName }}</view>
             </view>
             <view class="time">{{ item.addTime }}</view>

@@ -4,7 +4,6 @@
         <view class="title">优品推荐</view>
         <view>
             <view class="card">
-                <!-- <img :src="item.picUrl" alt=""> -->
                 <image :src="item.picUrl" mode=""></image>
                 <view class="contain">
                     <view class="title_2">{{ item.name }}</view>
@@ -20,7 +19,6 @@
         <view class="contain_2">
             <view>精选留言</view>
             <view>
-                <!-- <img  @click="score" :src="imgList.img1" alt=""> -->
                 <image @click="score" :src="imgList.img1" mode=""></image>
             </view>
         </view>
@@ -28,7 +26,6 @@
             <view v-for="(item, i) in commentList" :key="i">
                 <view class="contain_3">
                     <view class="head">
-                        <!-- <img src="https://img.yzcdn.cn/vant/cat.jpeg" alt=""> -->
                         <view>{{ item.userInfo.nickName }}</view>
                     </view>
                     <view class="time">{{ item.addTime }}</view>
@@ -37,7 +34,6 @@
             </view>
         </view>
         <view v-if="!isdisplay" class="box-floor-2">
-            <!-- <img :src="imgList.img2" alt=""> -->
             <image :src="imgList.img2" mode=""></image>
             <view>等你来留言</view>
         </view>
@@ -45,9 +41,7 @@
             <view class="more">查看更多</view>
         </navigator>
     </view>
-    <!-- <view class="topic-detail" v-html="content"></view> -->
     <view>
-        <!-- <editor id="editor" class="ql-container" :read-only="true"></editor> -->
         <rich-text :nodes="nodes"></rich-text>
     </view>
     <view>

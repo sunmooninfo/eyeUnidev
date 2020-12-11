@@ -10,7 +10,7 @@
         </view>
     </view>
     <view class="bottom_content" v-if="orderList && orderList.length == 0">
-        <img src="./img/cart_1.png" alt="" />
+        <img src="/static/images/cart_1.png" alt="" />
         <view>尚未参加任何团购</view>
     </view>
     <view class="orders" v-else>

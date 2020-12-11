@@ -3,8 +3,7 @@
     <view class="item">
         <view>头像</view>
         <view v-if="!avatarUrl">
-            <image style="width: 25px; height: 25px" src="./img/no.png" mode=""></image>
-            <!-- <img style="width: 25px;height: 25px;" width="30px" src="./img/no.png" alt=""> -->
+            <image style="width: 25px; height: 25px" src="/static/images/no.png" mode=""></image>
         </view>
         <view v-else>
             <img style="width: 25px; height: 25px" width="30px" :src="avatarUrl" alt="" />
@@ -18,15 +17,7 @@
         <view>性别</view>
         <view>男</view>
     </view>
-    <!-- <view class="item"  >
-        <view>密码设置</view>
-        <view>></view>
-      </view> -->
-    <!-- <view class="item"  >
-        <view>手机号</view>
-        <view>></view>
-      </view> -->
-    <!-- <button v-if="!avatarUrl" class="btn" @click="Jump">修改我的信息</button> -->
+  
     <button class="btn" @click="LoginOut">退出当前账号</button>
 </view>
 </template>

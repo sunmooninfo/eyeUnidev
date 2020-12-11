@@ -78,7 +78,10 @@ export default {
             (this.pages = 1),
             this.$request
                 .get(api.goodsCategory, {
-                    id: this.categoryId
+                    id: this.categoryId,
+					// #ifdef MP-WEIXIN
+					isShown: true,
+					// #endif
                 })
                 .then((res) => {
                     this.navList = res.data.brotherCategory;

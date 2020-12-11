@@ -94,7 +94,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
 var components = {
   uniRate: function() {
-    return __webpack_require__.e(/*! import() | components/uni-rate/uni-rate */ "components/uni-rate/uni-rate").then(__webpack_require__.bind(null, /*! @/components/uni-rate/uni-rate.vue */ 420))
+    return __webpack_require__.e(/*! import() | components/uni-rate/uni-rate */ "components/uni-rate/uni-rate").then(__webpack_require__.bind(null, /*! @/components/uni-rate/uni-rate.vue */ 419))
   }
 }
 var render = function() {
@@ -185,7 +185,7 @@ var _api = _interopRequireDefault(__webpack_require__(/*! @/pages/api/api.js */ 
 //
 //
 //
-var uniRate = function uniRate() {__webpack_require__.e(/*! require.ensure | components/uni-rate/uni-rate */ "components/uni-rate/uni-rate").then((function () {return resolve(__webpack_require__(/*! @/components/uni-rate/uni-rate.vue */ 420));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { components: { uniRate: uniRate }, data: function data() {return { value: 5, topic: {}, Satisfaction: "非常满意", content: "" };}, created: function created() {this.getGoods();}, onLoad: function onLoad(option) {var _this = this;var data = { id: option.id };this.$request.get(_api.default.topicDetail, data).then(function (res) {// this.topicRelated = res.data.list
+var uniRate = function uniRate() {__webpack_require__.e(/*! require.ensure | components/uni-rate/uni-rate */ "components/uni-rate/uni-rate").then((function () {return resolve(__webpack_require__(/*! @/components/uni-rate/uni-rate.vue */ 419));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { components: { uniRate: uniRate }, data: function data() {return { value: 5, topic: {}, Satisfaction: "非常满意", content: "" };}, created: function created() {this.getGoods();}, onLoad: function onLoad(option) {var _this = this;var data = { id: option.id };this.$request.get(_api.default.topicDetail, data).then(function (res) {// this.topicRelated = res.data.list
       _this.topic = res.data.topic; // console.log(res.data.topic)
     });}, methods: {
     inputChange: function inputChange(e) {

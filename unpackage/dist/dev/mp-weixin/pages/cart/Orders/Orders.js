@@ -94,13 +94,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
 var components = {
   uniIcons: function() {
-    return Promise.all(/*! import() | components/uni-icons/uni-icons */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uni-icons/uni-icons")]).then(__webpack_require__.bind(null, /*! @/components/uni-icons/uni-icons.vue */ 356))
+    return Promise.all(/*! import() | components/uni-icons/uni-icons */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uni-icons/uni-icons")]).then(__webpack_require__.bind(null, /*! @/components/uni-icons/uni-icons.vue */ 355))
   },
   evanSwitch: function() {
-    return __webpack_require__.e(/*! import() | components/evan-switch/evan-switch */ "components/evan-switch/evan-switch").then(__webpack_require__.bind(null, /*! @/components/evan-switch/evan-switch.vue */ 434))
+    return __webpack_require__.e(/*! import() | components/evan-switch/evan-switch */ "components/evan-switch/evan-switch").then(__webpack_require__.bind(null, /*! @/components/evan-switch/evan-switch.vue */ 433))
   },
   popupLayer: function() {
-    return __webpack_require__.e(/*! import() | components/popup-layer/popup-layer */ "components/popup-layer/popup-layer").then(__webpack_require__.bind(null, /*! @/components/popup-layer/popup-layer.vue */ 441))
+    return __webpack_require__.e(/*! import() | components/popup-layer/popup-layer */ "components/popup-layer/popup-layer").then(__webpack_require__.bind(null, /*! @/components/popup-layer/popup-layer.vue */ 440))
   }
 }
 var render = function() {
@@ -387,7 +387,7 @@ var _api = _interopRequireDefault(__webpack_require__(/*! @/pages/api/api.js */ 
 //
 //
 //
-var EvanSwitch = function EvanSwitch() {__webpack_require__.e(/*! require.ensure | components/evan-switch/evan-switch */ "components/evan-switch/evan-switch").then((function () {return resolve(__webpack_require__(/*! @/components/evan-switch/evan-switch.vue */ 434));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var uniIcons = function uniIcons() {Promise.all(/*! require.ensure | components/uni-icons/uni-icons */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uni-icons/uni-icons")]).then((function () {return resolve(__webpack_require__(/*! @/components/uni-icons/uni-icons.vue */ 356));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { data: function data() {return { checked: false, //会员积分开关
+var EvanSwitch = function EvanSwitch() {__webpack_require__.e(/*! require.ensure | components/evan-switch/evan-switch */ "components/evan-switch/evan-switch").then((function () {return resolve(__webpack_require__(/*! @/components/evan-switch/evan-switch.vue */ 433));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var uniIcons = function uniIcons() {Promise.all(/*! require.ensure | components/uni-icons/uni-icons */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uni-icons/uni-icons")]).then((function () {return resolve(__webpack_require__(/*! @/components/uni-icons/uni-icons.vue */ 355));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { data: function data() {return { checked: false, //会员积分开关
       boolShow: false, // 弹出层
       checkedGoodsList: [], //下单商品数组
       checkedAddress: {}, //下单地址对象

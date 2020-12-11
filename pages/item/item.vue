@@ -45,7 +45,11 @@ export default {
     methods: {
         // 获取商品列表
         getList() {
-            this.$request.get(api.catalogIndex).then((res) => {
+            this.$request.get(api.catalogIndex,{
+				// #ifdef MP-WEIXIN
+				isShown: true,
+				// #endif
+			}).then((res) => {
                 if (res.errno == 0) {
                     let data = res.data;
                     this.categoryList = data.categoryList;
@@ -62,7 +66,10 @@ export default {
         },
         changeCatalog(id) {
             this.$request.get(api.catalogCurrent, {
-                id: id
+                id: id,
+				// #ifdef MP-WEIXIN
+				isShown: true,
+				// #endif
             }).then((res) => {
                 if (res.errno == 0) {
                     let data = res.data;

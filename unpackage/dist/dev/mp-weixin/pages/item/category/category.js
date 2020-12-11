@@ -210,7 +210,10 @@ var _api = _interopRequireDefault(__webpack_require__(/*! @/pages/api/api.js */ 
       this.pages = 1,
       this.$request.
       get(_api.default.goodsCategory, {
-        id: this.categoryId }).
+        id: this.categoryId,
+
+        isShown: true }).
+
 
       then(function (res) {
         _this.navList = res.data.brotherCategory;

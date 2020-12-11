@@ -167,7 +167,7 @@ var _api = _interopRequireDefault(__webpack_require__(/*! @/pages/api/api.js */ 
 //
 //
 //
-var topThread = function topThread() {__webpack_require__.e(/*! require.ensure | pages/cart/component/topThread */ "pages/cart/component/topThread").then((function () {return resolve(__webpack_require__(/*! ./component/topThread.vue */ 335));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { data: function data() {return { token: false, commodity: [], counter: {}, isxian: false, checkbox: [] };}, methods: { btn: function btn() {uni.navigateTo({ url: "/pages/login/login" });}, init: function init() {var _this = this;
+var topThread = function topThread() {__webpack_require__.e(/*! require.ensure | pages/cart/component/topThread */ "pages/cart/component/topThread").then((function () {return resolve(__webpack_require__(/*! ./component/topThread.vue */ 334));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { data: function data() {return { token: false, commodity: [], counter: {}, isxian: false, checkbox: [] };}, methods: { btn: function btn() {uni.navigateTo({ url: "/pages/login/login" });}, init: function init() {var _this = this;
       try {
         var token = uni.getStorageSync("token");
         if (token) {

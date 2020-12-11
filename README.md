@@ -4,7 +4,7 @@
 
 * uni-app模块实例
 
-![](./static/img/ulovemall_wx_demo.jpg)
+![](./img/demo.jpg)
 
 > 由于第一次加载数据量较大，建议wifi网络访问，且耐心等待数秒。  
 

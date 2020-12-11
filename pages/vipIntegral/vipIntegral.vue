@@ -409,7 +409,7 @@ export default {
     height: 150rpx;
     border-radius: 10rpx;
     margin: 20rpx 0;
-    background-image: url(../../static/img/vip-back.jpg);
+    background-image: url(../../static/images/vip-back.jpg);
     /* background-size: cover; */
     background-size: 100% 100%;
     display: flex;

@@ -191,10 +191,17 @@ var _api = _interopRequireDefault(__webpack_require__(/*! @/pages/api/api.js */ 
 //
 //
 //
-var uniSearchBar = function uniSearchBar() {__webpack_require__.e(/*! require.ensure | components/uni-search-bar/uni-search-bar */ "components/uni-search-bar/uni-search-bar").then((function () {return resolve(__webpack_require__(/*! @/components/uni-search-bar/uni-search-bar.vue */ 342));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { data: function data() {return { categoryList: [], currentCategory: {}, currentSubCategoryList: [] };}, created: function created() {this.getList();}, methods: { // 获取商品列表
-    getList: function getList() {var _this = this;this.$request.get(_api.default.catalogIndex).then(function (res) {if (res.errno == 0) {var data = res.data;_this.categoryList = data.categoryList;_this.currentCategory = data.currentCategory;_this.currentSubCategoryList = data.currentSubCategory;} else {uni.showToast({ title: "".concat(res.errmsg), duration: 1500, icon: "none" });}});}, changeCatalog: function changeCatalog(id) {var _this2 = this;
+var uniSearchBar = function uniSearchBar() {__webpack_require__.e(/*! require.ensure | components/uni-search-bar/uni-search-bar */ "components/uni-search-bar/uni-search-bar").then((function () {return resolve(__webpack_require__(/*! @/components/uni-search-bar/uni-search-bar.vue */ 341));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { data: function data() {return { categoryList: [], currentCategory: {}, currentSubCategoryList: [] };}, created: function created() {this.getList();}, methods: { // 获取商品列表
+    getList: function getList() {var _this = this;this.$request.get(_api.default.catalogIndex, { isShown: true }).then(function (res) {if (res.errno == 0) {var data = res.data;_this.categoryList = data.categoryList;_this.currentCategory = data.currentCategory;_this.currentSubCategoryList = data.currentSubCategory;} else {uni.showToast({ title: "".concat(res.errmsg), duration: 1500, icon: "none" });
+        }
+      });
+    },
+    changeCatalog: function changeCatalog(id) {var _this2 = this;
       this.$request.get(_api.default.catalogCurrent, {
-        id: id }).
+        id: id,
+
+        isShown: true }).
+
       then(function (res) {
         if (res.errno == 0) {
           var data = res.data;

@@ -175,16 +175,7 @@ export default {
                     }
                 });
             }
-            // console.log('form发生了submit事件，携带数据为：' + JSON.stringify(e.detail.value))
-            // var formdata = e.detail.value
-            // uni.showModal({
-            //     content: '表单数据内容：' + JSON.stringify(formdata),
-            //     showCancel: false
-            // });
         },
-        // formReset: function(e) {
-        // 	console.log('清空数据')
-        // },
         onConfirm(e) {
             console.log(e);
             this.defaultRegion = [];
